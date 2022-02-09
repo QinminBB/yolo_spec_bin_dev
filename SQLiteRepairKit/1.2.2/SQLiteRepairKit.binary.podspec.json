@@ -1,0 +1,42 @@
+{
+  "name": "SQLiteRepairKit",
+  "version": "1.2.2",
+  "summary": "Repair kit for SQLite based database",
+  "description": "「   converted automatically by plugin cocoapods-imy-bin @厦门美柚 - slj    」\n          sqliterk is a efficient, self-contain repair kit for restoring corrupted SQLite based database.\n\nIt's basically used in WCDB, which is an efficient, complete, easy-to-use mobile database framework.",
+  "homepage": "https://github.com/Tencent/wcdb",
+  "license": {
+    "type": "BSD",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sanhuazhang": "sanhuazhang@tencent.com"
+  },
+  "module_name": "sqliterk",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "dependencies": {
+    "WCDBOptimizedSQLCipher": [
+      "~> 1.2.0"
+    ]
+  },
+  "source": {
+    "http": "http://localhost:8080/frameworks/SQLiteRepairKit/1.2.2/zip",
+    "type": "zip"
+  },
+  "public_header_files": "bin_SQLiteRepairKit_1.2.2/Headers/*.h",
+  "source_files": "bin_SQLiteRepairKit_1.2.2/Headers/*",
+  "libraries": [
+    "z",
+    "c++"
+  ],
+  "pod_target_xcconfig": {
+    "GCC_PREPROCESSOR_DEFINITIONS": "SQLITE_HAS_CODEC WCDB_BUILTIN_SQLCIPHER",
+    "LIBRARY_SEARCH_PATHS[sdk=macosx*]": "$(SDKROOT)/usr/lib/system",
+    "CLANG_CXX_LANGUAGE_STANDARD": "gnu++0x",
+    "CLANG_CXX_LIBRARY": "libc++",
+    "APPLICATION_EXTENSION_API_ONLY": "YES"
+  },
+  "header_dir": "sqliterk",
+  "vendored_libraries": "bin_SQLiteRepairKit_1.2.2/*.a"
+}
