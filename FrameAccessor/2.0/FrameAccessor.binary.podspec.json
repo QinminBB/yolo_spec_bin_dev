@@ -1,0 +1,32 @@
+{
+  "name": "FrameAccessor",
+  "version": "2.0",
+  "license": "MIT",
+  "summary": "Easy access to view's frame.",
+  "homepage": "https://github.com/AlexDenisov/FrameAccessor",
+  "description": "「   converted automatically by plugin cocoapods-imy-bin @厦门美柚 - slj    」\n          \nYou can access x, y, width, height, origin or size like properties.\nLike this:\nview.x = 15;\nview.width = 167;",
+  "authors": {
+    "AlexDenisov": "1101.debian@gmail.com",
+    "holgersindbaek": "holgersindbaek@gmail.com",
+    "noxt": "id.noxt@gmail.com"
+  },
+  "source": {
+    "http": "http://localhost:8080/frameworks/FrameAccessor/2.0/zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "4.3"
+  },
+  "ios": {
+    "source_files": "FrameAccessor/*.{h,m}"
+  },
+  "osx": {
+    "source_files": [
+      "FrameAccessor/FrameAccessor.h",
+      "FrameAccessor/ViewFrameAccessor.{h,m}"
+    ]
+  },
+  "source_files": "bin_FrameAccessor_2.0/Headers/*",
+  "public_header_files": "bin_FrameAccessor_2.0/Headers/*.h",
+  "vendored_libraries": "bin_FrameAccessor_2.0/*.a"
+}
