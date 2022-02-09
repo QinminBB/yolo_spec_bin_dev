@@ -1,0 +1,26 @@
+{
+  "name": "XXNibBridge",
+  "version": "2.3.1",
+  "summary": "XXNibBridge",
+  "description": "「   converted automatically by plugin cocoapods-imy-bin @厦门美柚 - slj    」\n Bridge a nib file to another nib or storyboard",
+  "homepage": "https://github.com/sunnyxx/XXNibBridge",
+  "screenshots": "https://camo.githubusercontent.com/79e8b3019e36b99f796966f8df118e18576ff781/687474703a2f2f7777322e73696e61696d672e636e2f6c617267652f353135333035383367773165687a676b6c696b34326a32306d3830676f3075612e6a7067",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sunnyxx": "sunyuan1713@gmail.com"
+  },
+  "platforms": {
+    "ios": "6.0"
+  },
+  "source": {
+    "http": "http://localhost:8080/frameworks/XXNibBridge/2.3.1/zip",
+    "type": "zip"
+  },
+  "source_files": "bin_XXNibBridge_2.3.1/Headers/*",
+  "requires_arc": true,
+  "public_header_files": "bin_XXNibBridge_2.3.1/Headers/*.h",
+  "vendored_libraries": "bin_XXNibBridge_2.3.1/*.a"
+}
