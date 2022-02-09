@@ -1,0 +1,23 @@
+{
+  "name": "ODRefreshControl",
+  "version": "1.2",
+  "license": "MIT",
+  "summary": "A pull down to refresh control like the one in Apple's iOS6 Mail App.",
+  "homepage": "https://github.com/Sephiroth87/ODRefreshControl",
+  "authors": {
+    "Fabio Ritrovato": "fabio@orangeinaday.com"
+  },
+  "source": {
+    "http": "http://localhost:8080/frameworks/ODRefreshControl/1.2/zip",
+    "type": "zip"
+  },
+  "description": "「   converted automatically by plugin cocoapods-imy-bin @厦门美柚 - slj    」\n ODRefreshControl is a \"pull down to refresh\" control for UIScrollView,like the one Apple introduced in iOS6, but available to anyone from iOS4 and up.",
+  "platforms": {
+    "ios": null
+  },
+  "source_files": "bin_ODRefreshControl_1.2/Headers/*",
+  "frameworks": "QuartzCore",
+  "requires_arc": true,
+  "public_header_files": "bin_ODRefreshControl_1.2/Headers/*.h",
+  "vendored_libraries": "bin_ODRefreshControl_1.2/*.a"
+}
