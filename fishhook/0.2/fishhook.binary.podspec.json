@@ -1,0 +1,25 @@
+{
+  "name": "fishhook",
+  "version": "0.2",
+  "license": {
+    "type": "BSD",
+    "file": "LICENSE"
+  },
+  "homepage": "https://github.com/facebook/fishhook",
+  "authors": {
+    "Facebook, Inc.": "https://github.com/facebook"
+  },
+  "summary": "A library that enables dynamically rebinding symbols in Mach-O binaries running on iOS.",
+  "source": {
+    "http": "http://localhost:8080/frameworks/fishhook/0.2/zip",
+    "type": "zip"
+  },
+  "source_files": "bin_fishhook_0.2/Headers/*",
+  "social_media_url": "https://twitter.com/fbOpenSource",
+  "platforms": {
+    "ios": "6.0"
+  },
+  "public_header_files": "bin_fishhook_0.2/Headers/*.h",
+  "vendored_libraries": "bin_fishhook_0.2/*.a",
+  "description": "「   converted automatically by plugin cocoapods-imy-bin @厦门美柚 - slj    」"
+}
