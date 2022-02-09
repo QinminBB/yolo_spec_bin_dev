@@ -1,0 +1,31 @@
+{
+  "name": "KxMenu",
+  "version": "1",
+  "summary": "KxMenu is a vertical popup menu for using in iOS applications.",
+  "description": "「   converted automatically by plugin cocoapods-imy-bin @厦门美柚 - slj    」\n          KxMenu is a vertical popup menu for using in iOS applications.  \nIt can popup a menu where ever on the screen.",
+  "homepage": "https://github.com/kolyvan/kxmenu",
+  "screenshots": [
+    "https://raw.github.com/kolyvan/kxmenu/master/screenshot/example.png",
+    "https://raw.github.com/kolyvan/kxmenu/master/screenshot/example.gif"
+  ],
+  "license": {
+    "type": "Copyright",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "kolyvan": "ru.kolyvan@gmail.com",
+    "jcccn": "jccuestc@gmail.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "http://localhost:8080/frameworks/KxMenu/1/zip",
+    "type": "zip"
+  },
+  "source_files": "bin_KxMenu_1/Headers/*",
+  "frameworks": "UIKit",
+  "requires_arc": true,
+  "public_header_files": "bin_KxMenu_1/Headers/*.h",
+  "vendored_libraries": "bin_KxMenu_1/*.a"
+}
